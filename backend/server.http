@@ -1,0 +1,17 @@
+### Test GET server
+GET http://localhost:5000/
+
+###
+
+### Test POST chat
+POST http://localhost:8000/chat
+Content-Type: application/json
+
+{
+  "message": "whats the time now"
+}
+
+###
+
+### List available models
+GET http://localhost:5000/models
